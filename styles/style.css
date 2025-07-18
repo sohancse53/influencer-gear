@@ -57,11 +57,77 @@ main > section{
 button{
     background-color: #E02C6D;
     border-radius: 40px;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
 }
 button:hover{
     background-color: #c90a50;
-    width: 200px;
     border-radius: 40px;
     padding: 10px 20px;
 }
 
+
+/* header and nav styles */
+header{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+header nav{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    list-style: none;
+    color: var(--primary-text-color);
+}
+nav i{
+    color: black;
+}
+
+/* header inside banner */
+.banner{
+    display: flex;
+    align-items: center;
+justify-content: center;
+gap: 130px;
+margin-top:80px ;
+}
+.banner-title{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 16px;
+
+}
+.banner-title h1{
+    font-size:3.25rem;
+}
+.banner-image{
+    background-color: rgba(250, 235, 215, 0);
+    width: 40%;
+    background-image: url("../images/Circle\ design.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-image img{
+    width: 100%;
+}

@@ -1,0 +1,21 @@
+@media screen and (max-width:576px) {
+    header nav,nav ul{
+        flex-direction: column;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-title{
+        width: 100%;
+        text-align: center;
+       
+        align-items: center;
+    }
+    .banner-title button{
+        width: 50%;
+    }
+    .banner-image{
+        width: 100%;
+    }
+
+}
