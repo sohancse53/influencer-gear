@@ -84,10 +84,15 @@ header nav{
 }
 nav ul{
     display: flex;
+      list-style: none;
     gap: 30px;
 }
-nav ul li{
-    list-style: none;
+nav ul .submenu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+
 }
 nav ul li a{
     list-style: none;
@@ -95,6 +100,10 @@ nav ul li a{
 }
 nav i{
     color: black;
+}
+#hamburger{
+  font-size: 2rem;
+  display: none;
 }
 
 /* header inside banner */

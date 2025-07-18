@@ -1,6 +1,10 @@
 @media screen and (max-width:576px) {
-    header nav,nav ul{
-        flex-direction: column;
+
+    header nav ul .submenu{
+        display: none;
+    }
+    #hamburger{
+        display: block;
     }
     .banner{
         flex-direction: column-reverse;
