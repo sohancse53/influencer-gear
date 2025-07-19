@@ -13,4 +13,18 @@
     .card:nth-child(9){
         grid-column: span 2;
     }
+
+
+       /* featured product */
+    .featured-products{
+        flex-direction: row-reverse;
+    }
+    .featured-products-img{
+        width: 90%;
+    }
+        .featured-products-title{
+            width: 90%;
+            text-align: center;
+        }
+    
 }

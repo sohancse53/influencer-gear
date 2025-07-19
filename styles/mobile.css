@@ -49,7 +49,7 @@ border: 1px solid grey;
 
     /* featured product */
     .featured-products{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .featured-products-img{
         width: 90%;
