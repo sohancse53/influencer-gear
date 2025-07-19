@@ -41,10 +41,13 @@ border: 1px solid grey;
   
 
     /* popular collection section */
-  
+  .collection h3{
+    text-align: center;
+}
     .cards{
         grid-template-columns: repeat(1,1fr);
     }
+
 
 
     /* featured product */

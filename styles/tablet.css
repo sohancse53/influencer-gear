@@ -3,13 +3,17 @@
 /* companies section will be same */
 
 /* popular collections */
+.card{
+        width: 400px;
+    }
  .cards{
         grid-template-columns: repeat(2,1fr);
         gap: 20px;
     }
-    .card{
-        width: 400px;
-    }
+    
+     .collection h3{
+    text-align: center;
+}
     .card:nth-child(9){
         grid-column: span 2;
     }
