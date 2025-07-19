@@ -1,0 +1,15 @@
+@media screen and (min-width:992px) {
+    .card{
+        width: calc(330px - 20px);
+    }
+ .cards{
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+    }
+    .collection h3{
+    margin-right: 20px;
+    margin-top: 20px;
+    color: var(--pink-color);
+    cursor: pointer;
+}
+}
