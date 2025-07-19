@@ -1,5 +1,16 @@
 @media screen and (min-width:576px) and (max-width:992px) {
     /* header section will be same  */
+/* companies section will be same */
 
-    
+/* popular collections */
+ .cards{
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+    .card{
+        width: 400px;
+    }
+    .card:nth-child(9){
+        grid-column: span 2;
+    }
 }

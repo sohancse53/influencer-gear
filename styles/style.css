@@ -24,7 +24,7 @@
 .inter-bold {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 600;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -39,6 +39,7 @@
 /* common styles */
 :root{
     --footer-color:#0A0826;
+    --orange-color:rgba(251, 130, 0, 1);
     --dark-text:#0A0826;
     --gray-text:#6C6C6C;
     --primary-text-color:#3A3A3A;
@@ -52,7 +53,7 @@ main{
     margin: 0 auto;
 }
 main > section{
-    margin-top: 100px;
+    margin-bottom: 100px;
 }
 button{
     background-color: #E02C6D;
@@ -71,7 +72,7 @@ button:hover{
 
 /* header and nav styles */
 header{
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     padding: 20px;
 
@@ -132,11 +133,73 @@ margin-top:80px ;
     background-image: url("../images/Circle\ design.svg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .banner-image img{
     width: 100%;
+}
+
+
+
+/* companies section styles */
+.companies{
+    padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  border-top: 1px solid  rgba(0, 0, 0, 0.075);
+  border-bottom: 1px solid  rgba(0, 0, 0, 0.075);
+}
+
+
+
+/* popular collection  styles*/
+.collection{
+    max-width: 1048px;
+
+    margin: 0 auto;
+}
+.collection h1{
+    font-size: 1.75rem; 
+    margin-bottom: 30px;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+.cards{
+    display: grid;
+grid-template-columns: repeat(3,1fr);
+justify-items: center;
+gap: 30px;
+}
+.card{
+    width: 330px;
+    padding: 17px 14px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.103) ;
+}
+.card h1{
+    text-align: left;
+    margin-bottom: 4px;
+}
+.card img{
+    width: 100%;
+}
+.ratings{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.stars i{
+    color:var(--orange-color) ;
+    font-size: 0.88rem;
+}
+.cards p{
+    font-size: 0.88rem;
+    font-weight: bold;
+    color: var(--primary-text-color);
 }
